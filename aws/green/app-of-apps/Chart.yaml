@@ -1,0 +1,6 @@
+apiVersion: v2
+name: aws-app-of-apps
+description: AWS local app-of-apps simulation
+type: application
+version: 0.1.0
+appVersion: "1.0"

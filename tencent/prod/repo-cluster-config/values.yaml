@@ -1,0 +1,13 @@
+argocdNamespace: argocd-tencent
+project: xl-devops-platform-tencent-local
+repoURL: https://github.com/RiziqStankovic/argocd-migration-sim.git
+targetRevision: main
+destinationServer: https://kubernetes.default.svc
+
+applications:
+  - name: tencent-cls-log-test
+    path: tencent/prod/workload/cls-log-test
+    namespace: tencent-dev
+  - name: cls-log-test-awstencent
+    path: tencent/cls-test
+    namespace: tencent-nonprod

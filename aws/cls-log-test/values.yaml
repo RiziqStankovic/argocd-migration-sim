@@ -1,0 +1,8 @@
+name: aws-cls-log-test
+message: "AWS CLS log test simulation"
+replicas: 1
+image:
+  repository: nginx
+  tag: "1.27-alpine"
+service:
+  port: 80

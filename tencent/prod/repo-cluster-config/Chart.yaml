@@ -1,0 +1,6 @@
+apiVersion: v2
+name: tencent-repo-cluster-config
+description: Tencent local app-of-apps simulation
+type: application
+version: 0.1.0
+appVersion: "1.0"

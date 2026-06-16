@@ -1,0 +1,6 @@
+apiVersion: v2
+name: tencent-cls-log-test
+description: Tencent CLS log test simulation
+type: application
+version: 0.1.0
+appVersion: "1.0"
