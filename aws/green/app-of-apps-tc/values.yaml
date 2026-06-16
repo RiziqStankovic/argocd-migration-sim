@@ -1,0 +1,17 @@
+spec:
+  destination:
+    # HIGHLIGHT
+    server: https://kubernetes.default.svc
+    namespace: "prod"
+  source:
+    # HIGHLIGHT
+    repoURL: git@gitrepo.xlaxiata.id:devops/gitops/platform/k8s-workload.git
+    # HIGHLIGHT
+    targetRevision: master
+
+# HIGHLIGHT
+applications:
+  - name: control-plane-bootstrap
+    namespace: argocd
+  - name: argocd-tc-external-clusters
+    namespace: argocd

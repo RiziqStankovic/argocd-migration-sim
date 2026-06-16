@@ -1,6 +1,5 @@
-apiVersion: v2
-name: tencent-repo-cluster-config
-description: Tencent local app-of-apps simulation
-type: application
+apiVersion: v1
+name: apps
+description: App of apps chart for the TKE environment.
 version: 0.1.0
 appVersion: "1.0"

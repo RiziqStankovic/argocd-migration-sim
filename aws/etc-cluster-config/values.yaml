@@ -1,8 +1,0 @@
-name: aws-baseline
-message: "AWS baseline managed by argocd-aws"
-replicas: 1
-image:
-  repository: nginx
-  tag: "1.27-alpine"
-service:
-  port: 80
