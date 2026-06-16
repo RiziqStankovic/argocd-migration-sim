@@ -1,16 +1,21 @@
-argocdNamespace: argocd-aws
-project: xl-devops-platform-aws-local
-repoURL: https://github.com/RiziqStankovic/argocd-migration-sim.git
-targetRevision: master
-destinationServer: https://kubernetes.default.svc
-
+spec:
+  destination:
+    # server: https://lb.cloudfren.id:443
+    server: https://kubernetes.default.svc
+    namespace: aws-prod
+  source:
+    repoURL: https://github.com/RiziqStankovic/argocd-migration-sim.git
+    targetRevision: master
+ 
 applications:
-  - name: aws-baseline
-    path: aws/etc-cluster-config
-    namespace: aws-baseline
   - name: aws-cls-log-test
-    path: aws/cls-log-test
-    namespace: aws-test
-  # - name: aws-cls-log-test-aws
-  #   path: aws/cls-log-test-aws
-  #   namespace: aws-test
+    namespace: aws-dev
+  # - name: cls-log-test-awstencent
+  #   namespace: tencent-nonprod
+  #   repoURL: "https://github.com/RiziqStankovic/cls-test.git"
+  #   path: "cls-log-test"
+  #   targetRevision: "master"
+    # releaseName: ""
+  # - name: aws-baseline
+  #   path: aws/etc-cluster-config
+  #   namespace: aws-baseline
