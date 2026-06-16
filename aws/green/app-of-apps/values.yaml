@@ -11,6 +11,6 @@ applications:
   - name: aws-cls-log-test
     path: aws/cls-log-test
     namespace: aws-test
-  - name: aws-cls-log-test-aws
-    path: aws/cls-log-test-aws
-    namespace: aws-test
+  # - name: aws-cls-log-test-aws
+  #   path: aws/cls-log-test-aws
+  #   namespace: aws-test
