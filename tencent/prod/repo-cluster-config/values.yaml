@@ -1,7 +1,7 @@
 argocdNamespace: argocd-tencent
 project: xl-devops-platform-tencent-local
 repoURL: https://github.com/RiziqStankovic/argocd-migration-sim.git
-targetRevision: main
+targetRevision: master
 destinationServer: https://kubernetes.default.svc
 
 applications:

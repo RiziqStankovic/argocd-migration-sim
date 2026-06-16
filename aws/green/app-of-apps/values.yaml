@@ -1,7 +1,7 @@
 argocdNamespace: argocd-aws
 project: xl-devops-platform-aws-local
 repoURL: https://github.com/RiziqStankovic/argocd-migration-sim.git
-targetRevision: main
+targetRevision: master
 destinationServer: https://kubernetes.default.svc
 
 applications:
