@@ -10,12 +10,12 @@ spec:
 applications:
   - name: tencent-cls-log-test
     namespace: tencent-dev
-  # - name: cls-log-test-awstencent
-  #   namespace: tencent-nonprod
-  #   repoURL: "https://github.com/RiziqStankovic/cls-test.git"
-  #   path: "cls-log-test"
-  #   targetRevision: "master"
-    # releaseName: ""
+  - name: cls-log-test-awstencent
+    namespace: tencent-nonprod
+    repoURL: "https://github.com/RiziqStankovic/cls-test.git"
+    path: "cls-log-test"
+    targetRevision: "master"
+    releaseName: ""
   # - name: aws-baseline
   #   path: aws/etc-cluster-config
   #   namespace: aws-baseline
