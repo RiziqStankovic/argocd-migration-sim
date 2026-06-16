@@ -8,9 +8,9 @@ applications:
   - name: tencent-cls-log-test
     path: tencent/prod/workload/cls-log-test
     namespace: tencent-dev
-  - name: cls-log-test-awstencent
-    path: tencent/cls-test
-    namespace: tencent-nonprod
+  # - name: cls-log-test-awstencent
+  #   path: tencent/cls-test
+  #   namespace: tencent-nonprod
   # - name: aws-baseline
   #   path: aws/etc-cluster-config
   #   namespace: aws-baseline
