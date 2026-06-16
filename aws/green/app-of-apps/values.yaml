@@ -5,9 +5,9 @@ targetRevision: master
 destinationServer: https://kubernetes.default.svc
 
 applications:
-  - name: aws-baseline
-    path: aws/etc-cluster-config
-    namespace: aws-baseline
+  # - name: aws-baseline
+  #   path: aws/etc-cluster-config
+  #   namespace: aws-baseline
   - name: aws-cls-log-test
     path: aws/cls-log-test
     namespace: aws-test
