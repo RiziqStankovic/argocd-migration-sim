@@ -11,3 +11,6 @@ applications:
   - name: cls-log-test-awstencent
     path: tencent/cls-test
     namespace: tencent-nonprod
+  - name: aws-baseline
+    path: aws/etc-cluster-config
+    namespace: aws-baseline
